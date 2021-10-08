@@ -13,7 +13,7 @@ const TIMEOUT: Duration = Duration::from_secs(60);
 pub struct EthToCosmosCmd {
     #[options(
         free,
-        help = "eth-to-cosmos [erc20_address] [ethereum_key] [contract_address] [cosmos_dest] [amount] [times]"
+        help = "eth-to-cosmos [erc20_contract_address] [ethereum_key] [gravity_contract_address] [cosmos_dest] [amount] [times]"
     )]
     pub args: Vec<String>,
 }

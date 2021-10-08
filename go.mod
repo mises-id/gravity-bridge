@@ -1,5 +1,7 @@
 module github.com/cosmos/gravity-bridge
 
-go 1.15
+go 1.16
 
-require github.com/cosmos/gravity-bridge/module v0.1.11 // indirect
+replace github.com/cosmos/gravity-bridge/module => ./module
+
+replace github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1

@@ -22,3 +22,5 @@ orchestrator \
     --ethereum-key="${ETH_PRIVATE_KEY}" \
     --ethereum-rpc="$ethrpc" \
     --fees="${DENOM}"
+
+tail -f /dev/null

@@ -11,7 +11,7 @@ use gravity_utils::connection_prep::{check_for_eth, create_rpc_connections};
 #[derive(Command, Debug, Options)]
 pub enum Eth {
     #[options(
-        help = "send-to-cosmos [from-eth-key][to-cosmos-addr] [erc20 conract] [erc20 amount] [[--times=int]]"
+        help = "send-to-cosmos [from-eth-key][to-cosmos-addr] [erc20 contract] [erc20 amount] [[--times=int]]"
     )]
     SendToCosmos(SendToCosmos),
     #[options(help = "send [from-key] [to-addr] [amount] [token-contract]")]
