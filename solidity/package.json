@@ -62,7 +62,7 @@
   "dependencies": {
     "@cosmjs/stargate": "^0.25.3",
     "@cosmjs/tendermint-rpc": "^0.25.3",
-    "pkg": "^4.4.9",
+    "pkg": "^5.3.3",
     "ts-proto": "^1.81.1"
   }
 }
